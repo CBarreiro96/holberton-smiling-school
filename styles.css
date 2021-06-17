@@ -1,0 +1,191 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+:root {
+    
+  --main-color: #c271ff;
+  --opacity-value: 0.9;
+  --background-color: #071629;
+
+  /*Font Size*/
+  --font-family-1: "Source Sans Pro", sans-serif;
+    
+    
+  --color-white: #ffffff;
+  --nav-line-height: 0.2rem;
+}
+  
+/* General Styles  */
+  
+.body {
+  font-family: var(--font-family-1);
+}
+  
+.main-color {
+  color: var(--main-color);
+}
+  
+.section-header h2 {
+  font-weight: 300;
+}
+  
+.section-header span {
+  font-weight: bold;
+}
+  
+.btn:hover,
+.btn:active {
+  opacity: var(--opacity-value);
+}
+  
+/* Header / Hero Styles 
+    =====================================*/
+  
+.header {
+  background-image: url("images/pic_1.jpg");
+  background-color: var(--background-color);
+  max-width: 100%;
+  height: auto;
+  background-position-x: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+ 
+}
+  
+.header .navbar-line1 {
+  background-color: var(--color-white);
+  height: var(--nav-line-height);
+  width: 2rem;
+  display: block;
+}
+.header .navbar-line2 {
+  background-color: var(--color-white);
+  height: var(--nav-line-height);
+  width: 1.3rem;
+  display: block;
+}
+.header .navbar-line3 {
+  background-color: var(--color-white);
+  height: var(--nav-line-height);
+  width: 1.8rem;
+  display: block;
+}
+  
+.header .nav-link {
+  font-size: 1.2rem;
+}
+  
+.header .nav-link:hover {
+  color: var(--main-color) !important;
+}
+  
+.header .nav-link:after {
+  content: "";
+  display: block;
+  background-color: var(--color-white);
+  width: 0;
+  height: 0.2rem;
+  top: 0.4rem;
+  position: relative;
+  transition: 180ms;
+}
+  
+
+  
+.pricing-header .navbar-nav li:nth-child(2) a {
+  color: var(--main-color) !important;
+}
+  
+.pricing-header .navbar-nav li:nth-child(2) a:after {
+  width: 100%;
+}
+  
+.courses-header .navbar-nav li:nth-child(1) a {
+  color: var(--main-color) !important;
+}
+  
+.courses-header .navbar-nav li:nth-child(1) a:after {
+  width: 100%;
+}
+  
+.hero {
+  margin-top: 15.5rem;
+}
+.hero h1 {
+  font-size: 12rem;
+}
+  
+.hero .list-group-item {
+  background-color: transparent;
+  border: 0;
+  outline: none;
+  color: #fff;
+}
+  
+.btn.btn-smile {
+  background-color: var(--main-color);
+  width: 16.2rem;
+  height: 4.4rem;
+  font-size: 1.4rem;
+  border-radius: 2.2rem;
+  filter: drop-shadow(0px 2px 20px rgba(0, 0, 0, 0.5));
+}
+  
+.hero-learn {
+  font-size: 3.2rem;
+  margin-top: 16.8rem;
+  margin-bottom: 0;
+}
+.hero-learn span {
+  color: var(--main-color);
+}
+  
+.pros h3 {
+  font-size: 1.8rem;
+  font-weight: 900;
+  line-height: 2.7rem;
+}
+  
+.pros img {
+  width: 15rem;
+  border-radius: 7.5rem;
+}
+  
+.pros span {
+  display: block;
+  font-size: 1rem;
+  font-style: italic;
+  line-height: 2.4rem;
+}
+.pros {
+  padding-top: 8.7rem;
+  padding-bottom: 9.8rem;
+}
+
+
+/*@Media Header*/
+  
+@media screen and (max-width: 767px) {
+  .pro1,
+  .pro2 {
+    padding-bottom: 58px;
+  }
+}
+  
+@media screen and (max-width: 575px) {
+  .hero h1 {
+    font-size: 61px;
+  }
+  
+  .pricing-header .navbar-nav li:nth-child(2) a:after {
+    width: 0%;
+  }
+  
+  .courses-header .navbar-nav li:nth-child(1) a:after {
+    width: 0%;
+  }
+}
