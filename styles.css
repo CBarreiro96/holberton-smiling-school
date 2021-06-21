@@ -472,3 +472,31 @@ html {
     padding-bottom: 50px;
   }
 }
+
+/*Footer*/
+.footer {
+  background-color: var(--background-color);
+  height: 249px;
+}
+.footer .container {
+  height: 100%;
+}
+.footer .row {
+  height: 100%;
+}
+.footer .footer-item {
+  padding: 0;
+}
+.footer .social-item {
+  font-size: 30px;
+}
+.footer .social-item a {
+  color: var(--color-white);
+  text-decoration: none;
+}
+.footer .twitter-icon {
+  padding: 0 20px;
+}
+.footer .trademark {
+  padding-bottom: 39px;
+}
