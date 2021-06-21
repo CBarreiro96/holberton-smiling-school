@@ -500,3 +500,45 @@ html {
 .footer .trademark {
   padding-bottom: 39px;
 }
+
+/*
+  ===================================== 
+  ===================================== 
+  ===================================== 
+  ===================================== */
+
+
+
+/* PRICING 
+   ==================================== */
+.pricing {
+  background-image: url(images/pic_2.jpg);
+}
+.pricing h1 {
+  font-size: 3.2rem;
+  line-height: 4rem;
+}
+.pricing h2 {
+  padding-top: 75px;
+  padding-bottom: 55px;
+  font-size: 60px;
+}
+.pricing .hero .smile-fig {
+  max-width: 37px;
+}
+.pricing .title-fig {
+  width: 200px;
+}
+
+/*@media*/
+@media screen and (max-width: 575px) {
+  .pricing-header h1 {
+    font-size: 24px;
+  }
+  .pricing-header .hero .smile-fig {
+    max-width: 30px;
+  }
+  .pricing-header .title-fig {
+    width: 150px;
+  }
+}
