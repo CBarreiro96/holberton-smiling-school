@@ -681,3 +681,39 @@ html {
     margin-bottom: 108px;
   }
 }
+
+/*
+  ===================================== 
+  ===================================== 
+  ===================================== 
+  ===================================== */
+
+/* COURSES  */
+:root {
+
+  --font-family-3:Coiny, sans-serif;
+}
+
+/* Header Section  */
+.courses-header {
+  background-image: url(images/pic_3.jpg);
+  background-size: cover;
+  background-position-x: 25px;
+  background-position-y: -100px;
+}
+.courses-header h1 {
+  font-size: 3.2rem;
+  font-family: var(--font-family-3);
+}
+.courses-header .hero {
+  margin-top: 37px;
+  padding-bottom: 51px;
+}
+@media screen and (max-width: 1000px) {
+  .courses-header {
+    background-position-y: 0;
+    background-size: initial;
+    background-position-y: -100px;
+    background-position-x: -275px;
+  }
+}
